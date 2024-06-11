@@ -1,0 +1,95 @@
+2024-06-11 19:58:16.223 | INFO     | __main__:main:34 - Collecting data from https://t.me/DoctorsET
+2024-06-11 20:07:23.765 | INFO     | __main__:main:34 - Collecting data from https://t.me/DoctorsET
+2024-06-11 20:15:19.864 | INFO     | __main__:collect_data:76 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-11 20:15:20.857 | INFO     | __main__:collect_data:76 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-11 20:15:22.056 | INFO     | __main__:collect_data:76 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-11 20:15:23.113 | INFO     | __main__:collect_data:76 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-11 20:17:27.793 | INFO     | __main__:collect_data:77 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-11 20:17:28.193 | INFO     | __main__:collect_data:77 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-11 20:17:28.740 | INFO     | __main__:collect_data:77 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-11 20:17:29.186 | INFO     | __main__:collect_data:77 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-11 20:17:29.187 | ERROR    | __main__:collect_data:79 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
+2024-06-11 20:23:00.754 | INFO     | __main__:collect_data:42 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-11 20:23:02.072 | INFO     | __main__:collect_data:42 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-11 20:23:02.917 | INFO     | __main__:collect_data:42 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-11 20:23:03.403 | INFO     | __main__:collect_data:42 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-11 20:23:03.403 | ERROR    | __main__:collect_data:44 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
+2024-06-11 20:23:03.482 | INFO     | __main__:scrape_images:75 - Scraping images from https://t.me/ChemedTelegramChannel
+2024-06-11 20:23:05.014 | INFO     | __main__:scrape_images:75 - Scraping images from https://t.me/lobelia4cosmetics
+2024-06-11 20:25:25.227 | INFO     | __main__:collect_data:42 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-11 20:25:25.669 | INFO     | __main__:collect_data:42 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-11 20:25:26.379 | INFO     | __main__:collect_data:42 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-11 20:25:26.736 | INFO     | __main__:collect_data:42 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-11 20:25:26.736 | ERROR    | __main__:collect_data:44 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
+2024-06-11 20:25:26.813 | INFO     | __main__:scrape_images:75 - Scraping images from https://t.me/ChemedTelegramChannel
+2024-06-11 20:25:27.502 | INFO     | __main__:scrape_images:75 - Scraping images from https://t.me/lobelia4cosmetics
+2024-06-11 20:29:36.428 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-11 20:29:39.792 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-11 20:29:44.632 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-11 20:29:47.186 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-11 20:29:47.186 | ERROR    | __main__:collect_data:133 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
+2024-06-11 20:29:47.186 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/ChemedTelegramChannel
+2024-06-11 20:29:47.884 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/lobelia4cosmetics
+2024-06-11 20:32:54.864 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-11 20:32:55.169 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-11 20:32:55.686 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-11 20:32:56.292 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-11 20:32:56.293 | ERROR    | __main__:collect_data:133 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
+2024-06-11 20:32:56.293 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/ChemedTelegramChannel
+2024-06-11 20:32:56.764 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/lobelia4cosmetics
+2024-06-11 20:40:45.556 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-11 20:40:45.911 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-11 20:40:46.646 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-11 20:40:47.254 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-11 20:40:47.255 | ERROR    | __main__:collect_data:133 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
+2024-06-11 20:40:47.255 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/ChemedTelegramChannel
+2024-06-11 20:40:47.909 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/lobelia4cosmetics
+2024-06-11 20:44:05.825 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-11 20:44:06.095 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-11 20:44:06.508 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-11 20:44:06.815 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-11 20:44:06.815 | ERROR    | __main__:collect_data:133 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
+2024-06-11 20:44:06.815 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/ChemedTelegramChannel
+2024-06-11 20:44:07.415 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/lobelia4cosmetics
+2024-06-11 20:45:16.907 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-11 20:45:18.095 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-11 20:45:20.350 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-11 20:45:20.927 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-11 20:45:20.927 | ERROR    | __main__:collect_data:133 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
+2024-06-11 20:45:20.927 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/ChemedTelegramChannel
+2024-06-11 20:45:21.403 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/lobelia4cosmetics
+2024-06-11 20:46:05.915 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-11 20:46:06.527 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-11 20:46:07.356 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-11 20:46:07.749 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-11 20:46:07.749 | ERROR    | __main__:collect_data:133 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
+2024-06-11 20:46:07.749 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/ChemedTelegramChannel
+2024-06-11 20:46:08.237 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/lobelia4cosmetics
+2024-06-11 20:46:54.566 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-11 20:46:54.926 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-11 20:46:55.571 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-11 20:46:55.925 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-11 20:46:55.925 | ERROR    | __main__:collect_data:133 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
+2024-06-11 20:46:55.926 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/ChemedTelegramChannel
+2024-06-11 20:46:56.588 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/lobelia4cosmetics
+2024-06-11 20:49:03.990 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-11 20:49:04.810 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-11 20:49:05.862 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-11 20:49:06.526 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-11 20:49:06.526 | ERROR    | __main__:collect_data:133 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
+2024-06-11 20:49:06.526 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/ChemedTelegramChannel
+2024-06-11 20:49:08.484 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/lobelia4cosmetics
+2024-06-11 20:51:21.811 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-11 20:51:22.331 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-11 20:51:23.362 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-11 20:51:23.911 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-11 20:51:23.911 | ERROR    | __main__:collect_data:133 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
+2024-06-11 20:51:23.911 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/ChemedTelegramChannel
+2024-06-11 20:51:24.883 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/lobelia4cosmetics
+2024-06-11 20:51:53.273 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-11 20:51:53.660 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-11 20:51:54.077 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-11 20:51:54.383 | INFO     | __main__:collect_data:131 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-11 20:51:54.384 | ERROR    | __main__:collect_data:133 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
+2024-06-11 20:51:54.384 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/ChemedTelegramChannel
+2024-06-11 20:51:54.983 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/lobelia4cosmetics
