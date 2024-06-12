@@ -1,0 +1,19 @@
+
+version: 2
+models:
+  - name: my_model
+    description: "A model for transforming data"
+    columns:
+      - name: id
+        description: "The unique identifier"
+        tests:
+          - unique
+          - not_null
+      - name: date
+        description: "The date of the message"
+      - name: text
+        description: "The message text"
+      - name: sender_id
+        description: "The ID of the sender"
+      - name: views
+        description: "The number of views"

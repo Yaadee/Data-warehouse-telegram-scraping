@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, Float
-from .database import Base
+from database import Base
 
 class DetectionResult(Base):
     __tablename__ = 'detection_results'

@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
-from . import crud, models, schemas, database
+import crud, models, schemas, database
 from loguru import logger
 
 # Set up logging
