@@ -93,3 +93,73 @@
 2024-06-11 20:51:54.384 | ERROR    | __main__:collect_data:133 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
 2024-06-11 20:51:54.384 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/ChemedTelegramChannel
 2024-06-11 20:51:54.983 | INFO     | __main__:scrape_images:162 - Scraping images from https://t.me/lobelia4cosmetics
+2024-06-12 07:21:29.519 | INFO     | __main__:collect_data:43 - Data collection complete for https://t.me/DoctorsET. Saved to data/raw/DoctorsET.json
+2024-06-12 07:21:29.821 | INFO     | __main__:collect_data:43 - Data collection complete for https://t.me/lobelia4cosmetics. Saved to data/raw/lobelia4cosmetics.json
+2024-06-12 07:21:30.462 | INFO     | __main__:collect_data:43 - Data collection complete for https://t.me/EAHCI. Saved to data/raw/EAHCI.json
+2024-06-12 07:21:30.972 | INFO     | __main__:collect_data:43 - Data collection complete for https://t.me/yetenaweg. Saved to data/raw/yetenaweg.json
+2024-06-12 07:21:30.973 | ERROR    | __main__:collect_data:45 - Error collecting data for https://et.tgstat.com/medicine: Cannot find any entity corresponding to "https://et.tgstat.com/medicine"
+2024-06-12 07:21:30.973 | INFO     | __main__:scrape_images:74 - Scraping images from https://t.me/ChemedTelegramChannel
+2024-06-12 07:21:31.908 | INFO     | __main__:scrape_images:74 - Scraping images from https://t.me/lobelia4cosmetics
+2024-06-12 07:38:40.103 | INFO     | __main__:main:218 - Collecting data from DoctorsET
+2024-06-12 07:48:49.856 | INFO     | __main__:main:230 - Collecting data from DoctorsET
+2024-06-12 07:50:41.229 | INFO     | __main__:main:242 - Collecting data from DoctorsET
+2024-06-12 07:50:41.893 | INFO     | __main__:save_data:219 - Saved data to data/raw/DoctorsET.json
+2024-06-12 07:50:41.893 | INFO     | __main__:main:242 - Collecting data from EAHCI
+2024-06-12 07:50:42.478 | INFO     | __main__:save_data:219 - Saved data to data/raw/EAHCI.json
+2024-06-12 07:50:42.478 | INFO     | __main__:main:242 - Collecting data from yetenaweg
+2024-06-12 07:50:43.008 | INFO     | __main__:save_data:219 - Saved data to data/raw/yetenaweg.json
+2024-06-12 07:50:43.008 | INFO     | __main__:main:249 - Downloading images from CheMed123
+2024-06-12 07:50:43.456 | INFO     | __main__:download_images:236 - Downloaded 0 images from CheMed123
+2024-06-12 07:50:43.457 | INFO     | __main__:main:249 - Downloading images from lobelia4cosmetics
+2024-06-12 07:50:50.890 | INFO     | __main__:download_images:236 - Downloaded 10 images from lobelia4cosmetics
+2024-06-12 07:51:51.999 | INFO     | __main__:main:242 - Collecting data from DoctorsET
+2024-06-12 07:51:52.805 | INFO     | __main__:save_data:219 - Saved data to data/raw/DoctorsET.json
+2024-06-12 07:51:52.806 | INFO     | __main__:main:242 - Collecting data from EAHCI
+2024-06-12 07:51:53.562 | INFO     | __main__:save_data:219 - Saved data to data/raw/EAHCI.json
+2024-06-12 07:51:53.563 | INFO     | __main__:main:242 - Collecting data from yetenaweg
+2024-06-12 07:51:54.272 | INFO     | __main__:save_data:219 - Saved data to data/raw/yetenaweg.json
+2024-06-12 07:51:54.272 | INFO     | __main__:main:249 - Downloading images from CheMed123
+2024-06-12 07:51:54.637 | INFO     | __main__:download_images:236 - Downloaded 0 images from CheMed123
+2024-06-12 07:51:54.637 | INFO     | __main__:main:249 - Downloading images from lobelia4cosmetics
+2024-06-12 07:52:11.748 | INFO     | __main__:download_images:236 - Downloaded 20 images from lobelia4cosmetics
+2024-06-12 07:55:17.204 | INFO     | __main__:main:242 - Collecting data from DoctorsET
+2024-06-12 07:55:17.955 | INFO     | __main__:save_data:219 - Saved data to data/raw/DoctorsET.json
+2024-06-12 07:55:17.955 | INFO     | __main__:main:242 - Collecting data from EAHCI
+2024-06-12 07:55:18.677 | INFO     | __main__:save_data:219 - Saved data to data/raw/EAHCI.json
+2024-06-12 07:55:18.678 | INFO     | __main__:main:242 - Collecting data from yetenaweg
+2024-06-12 07:55:19.085 | INFO     | __main__:save_data:219 - Saved data to data/raw/yetenaweg.json
+2024-06-12 07:55:19.086 | INFO     | __main__:main:249 - Downloading images from CheMed123
+2024-06-12 07:55:20.143 | INFO     | __main__:download_images:236 - Downloaded 0 images from CheMed123
+2024-06-12 07:55:20.143 | INFO     | __main__:main:249 - Downloading images from lobelia4cosmetics
+2024-06-12 07:55:33.405 | INFO     | __main__:download_images:236 - Downloaded 20 images from lobelia4cosmetics
+2024-06-12 07:55:35.753 | INFO     | __main__:main:242 - Collecting data from DoctorsET
+2024-06-12 07:55:36.424 | INFO     | __main__:save_data:219 - Saved data to data/raw/DoctorsET.json
+2024-06-12 07:55:36.424 | INFO     | __main__:main:242 - Collecting data from EAHCI
+2024-06-12 07:55:36.800 | INFO     | __main__:save_data:219 - Saved data to data/raw/EAHCI.json
+2024-06-12 07:55:36.800 | INFO     | __main__:main:242 - Collecting data from yetenaweg
+2024-06-12 07:55:37.509 | INFO     | __main__:save_data:219 - Saved data to data/raw/yetenaweg.json
+2024-06-12 07:55:37.509 | INFO     | __main__:main:249 - Downloading images from CheMed123
+2024-06-12 07:55:52.132 | INFO     | __main__:download_images:236 - Downloaded 20 images from CheMed123
+2024-06-12 07:55:52.133 | INFO     | __main__:main:249 - Downloading images from lobelia4cosmetics
+2024-06-12 07:56:03.203 | INFO     | __main__:download_images:236 - Downloaded 20 images from lobelia4cosmetics
+2024-06-12 08:10:02.107 | INFO     | __main__:main:20 - Cleaning data from data/raw/yetenaweg.json
+2024-06-12 08:11:15.766 | ERROR    | __main__:clean_data:63 - Error cleaning data: unhashable type: 'dict'
+2024-06-12 08:11:15.828 | INFO     | __main__:clean_data:61 - Cleaned data saved to data/cleaned/lobelia4cosmetics.json
+2024-06-12 08:11:15.838 | ERROR    | __main__:clean_data:63 - Error cleaning data: unhashable type: 'dict'
+2024-06-12 08:11:15.851 | ERROR    | __main__:clean_data:63 - Error cleaning data: unhashable type: 'dict'
+2024-06-12 08:16:37.667 | ERROR    | __main__:clean_data:70 - Error cleaning data from data/raw/yetenaweg.json: unhashable type: 'dict'
+2024-06-12 08:16:37.672 | INFO     | __main__:clean_data:68 - Cleaned data saved to data/cleaned/lobelia4cosmetics.json
+2024-06-12 08:16:37.682 | ERROR    | __main__:clean_data:70 - Error cleaning data from data/raw/DoctorsET.json: unhashable type: 'dict'
+2024-06-12 08:16:37.693 | ERROR    | __main__:clean_data:70 - Error cleaning data from data/raw/EAHCI.json: unhashable type: 'dict'
+2024-06-12 08:17:56.916 | ERROR    | __main__:clean_data:74 - Error cleaning data from data/raw/yetenaweg.json: name 'json' is not defined
+2024-06-12 08:17:56.934 | INFO     | __main__:clean_data:72 - Cleaned data saved to data/cleaned/lobelia4cosmetics.json
+2024-06-12 08:17:56.944 | ERROR    | __main__:clean_data:74 - Error cleaning data from data/raw/DoctorsET.json: name 'json' is not defined
+2024-06-12 08:17:56.955 | ERROR    | __main__:clean_data:74 - Error cleaning data from data/raw/EAHCI.json: name 'json' is not defined
+2024-06-12 08:31:20.063 | ERROR    | __main__:clean_data:75 - Error cleaning data from data/raw/yetenaweg.json: unhashable type: 'list'
+2024-06-12 08:31:20.069 | INFO     | __main__:clean_data:73 - Cleaned data saved to data/cleaned/lobelia4cosmetics_cleaned.json
+2024-06-12 08:31:20.085 | ERROR    | __main__:clean_data:75 - Error cleaning data from data/raw/DoctorsET.json: unhashable type: 'list'
+2024-06-12 08:31:20.103 | ERROR    | __main__:clean_data:75 - Error cleaning data from data/raw/EAHCI.json: unhashable type: 'list'
+2024-06-12 08:34:00.114 | INFO     | __main__:clean_data:83 - Cleaned data saved to data/cleaned/yetenaweg_cleaned.json
+2024-06-12 08:34:00.122 | INFO     | __main__:clean_data:83 - Cleaned data saved to data/cleaned/lobelia4cosmetics_cleaned.json
+2024-06-12 08:34:00.152 | INFO     | __main__:clean_data:83 - Cleaned data saved to data/cleaned/DoctorsET_cleaned.json
+2024-06-12 08:34:00.186 | INFO     | __main__:clean_data:83 - Cleaned data saved to data/cleaned/EAHCI_cleaned.json
