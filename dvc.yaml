@@ -1,3 +1,26 @@
+# stages:
+#   collect:
+#     cmd: python src/data_collection.py
+#     deps:
+#       - src/data_collection.py
+#     outs:
+#       - data/raw/
+#   clean:
+#     cmd: python src/data_cleaning.py
+#     deps:
+#       - src/data_cleaning.py
+#       - data/raw/
+#     outs:
+#       - data/cleaned/
+#   detect:
+#     cmd: python src/object_detection.py
+#     deps:
+#       - src/object_detection.py
+#       - data/images/
+#     outs:
+#       - data/detections/
+
+
 stages:
   collect:
     cmd: python src/data_collection.py
@@ -19,3 +42,10 @@ stages:
       - data/images/
     outs:
       - data/detections/
+  etl:
+    cmd: python src/etl.py
+    deps:
+      - src/etl.py
+      - data/detections/
+    outs:
+      - database.db

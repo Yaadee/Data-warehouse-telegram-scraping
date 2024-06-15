@@ -1,4 +1,3 @@
-
 import os
 import json
 from telethon.sync import TelegramClient
@@ -51,8 +50,8 @@ def make_json_serializable(data):
         return data
 
 # Function to collect data
-async def collect_data(channel, limit=100):
-    messages = await client.get_messages(channel, limit=limit)
+async def collect_data(channel):
+    messages = await client.get_messages(channel)
     data = []
     for message in messages:
         msg_dict = message.to_dict()
@@ -63,25 +62,21 @@ async def collect_data(channel, limit=100):
 # Function to save data
 def save_data(data, path):
     with open(path, 'w') as f:
-        json.dump(data, f)
+        json.dump(data, f, default=str)
     logger.info(f"Saved data to {path}")
 
 # Function to download images
-async def download_images(channel, start_date=None, end_date=None, max_images=None):
+async def download_images(channel, start_date=None, end_date=None):
     channel_image_dir = os.path.join(IMAGE_DIR, channel)
     os.makedirs(channel_image_dir, exist_ok=True)
     
-    image_count = 0
     async for message in client.iter_messages(channel, filter=InputMessagesFilterPhotos):
         message_date = message.date.replace(tzinfo=timezone.utc)  # Make message date timezone aware
         if (start_date and message_date < start_date) or (end_date and message_date > end_date):
             continue
-        if max_images and image_count >= max_images:
-            break
         # Download the photo
         await client.download_media(message.photo, file=os.path.join(channel_image_dir, f'{message.id}.jpg'))
-        image_count += 1
-    logger.info(f"Downloaded {image_count} images from {channel}")
+    logger.info(f"Downloaded images from {channel}")
 
 def main():
     with client:
@@ -98,8 +93,7 @@ def main():
             client.loop.run_until_complete(download_images(
                 channel, 
                 start_date=datetime(2022, 5, 1, tzinfo=timezone.utc), 
-                end_date=datetime(2024, 6, 10, tzinfo=timezone.utc), 
-                max_images=20
+                end_date=datetime(2024, 6, 10, tzinfo=timezone.utc)
             ))
 
 if __name__ == "__main__":

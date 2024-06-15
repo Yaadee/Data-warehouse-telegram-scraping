@@ -1,12 +1,12 @@
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
-import crud, models, schemas, database
+import crud, modelss, schemas, database
 from loguru import logger
 
 # Set up logging
 logger.add("logs/app.log", rotation="1 MB")
 
-models.Base.metadata.create_all(bind=database.engine)
+modelss.Base.metadata.create_all(bind=database.engine)
 
 app = FastAPI()
 
@@ -30,3 +30,5 @@ def read_detection_results(skip: int = 0, limit: int = 100, db: Session = Depend
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+
