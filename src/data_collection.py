@@ -4,11 +4,15 @@ from telethon.sync import TelegramClient
 from telethon.tl.types import InputMessagesFilterPhotos
 from datetime import datetime, timezone
 from loguru import logger
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Configuration
-api_id = '26622716'
-api_hash = 'fd4274717bfcacf787cc15b9b51f1c76'
-phone = '+251927463201'
+api_id = os.getenv('API_ID')
+api_hash = os.getenv('API_HASH')
+phone = os.getenv('PHONE')
 
 # Define the channels for data collection and image scraping
 data_channels = [

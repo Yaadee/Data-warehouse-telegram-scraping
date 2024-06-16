@@ -1400,3 +1400,12 @@
 2024-06-14 12:17:36.077 | ERROR    | __main__:load_detection_results:115 - Unexpected detection format in image 1938: [390.13079833984375, 263.14703369140625, 526.4451293945312, 628.5894165039062, 0.36194920539855957, 0.0]
 2024-06-14 12:17:36.077 | ERROR    | __main__:load_detection_results:115 - Unexpected detection format in image 1349: [24.559646606445312, 0.0, 277.974609375, 1280.0, 0.27636653184890747, 39.0]
 2024-06-14 12:17:36.078 | ERROR    | __main__:load_detection_results:115 - Unexpected detection format in image 1349: [1001.5216064453125, 0.0, 1244.8221435546875, 1265.7457275390625, 0.2667705714702606, 39.0]
+2024-06-16 08:30:58.162 | INFO     | __main__:main:191 - Collecting data from DoctorsET
+2024-06-16 08:30:59.062 | INFO     | __main__:save_data:172 - Saved data to data/raw/DoctorsET.json
+2024-06-16 08:30:59.063 | INFO     | __main__:main:191 - Collecting data from EAHCI
+2024-06-16 08:30:59.724 | INFO     | __main__:save_data:172 - Saved data to data/raw/EAHCI.json
+2024-06-16 08:30:59.724 | INFO     | __main__:main:191 - Collecting data from yetenaweg
+2024-06-16 08:31:00.382 | INFO     | __main__:save_data:172 - Saved data to data/raw/yetenaweg.json
+2024-06-16 08:31:00.382 | INFO     | __main__:main:198 - Downloading images from CheMed123
+2024-06-16 08:33:22.509 | INFO     | __main__:download_images:185 - Downloaded images from CheMed123
+2024-06-16 08:33:22.509 | INFO     | __main__:main:198 - Downloading images from lobelia4cosmetics
