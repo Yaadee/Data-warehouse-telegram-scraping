@@ -1,0 +1,16 @@
+
+name: dbt_project
+version: 2.0.0
+config-version: 2
+
+profile: dbt
+
+# Specify where DBT should look for models
+model-paths: ["models"]
+
+# Specify where DBT should store compiled SQL files
+target-path: "target"
+
+# Specify where DBT should store logs
+log-path: "logs"
+

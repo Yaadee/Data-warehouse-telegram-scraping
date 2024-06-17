@@ -1,20 +1,24 @@
 
-{% set doctorset = source('Data-warehouse', 'doctorset_raw') %}
-{% set eahci = source('Data-warehouse', 'eahci_raw') %}
-{% set yetenaweg = source('Data-warehouse', 'yetenaweg_raw') %}
-{% set lobelia4cosmetics = source('Data-warehouse', 'lobelia4_raw') %}
+  create view "Data-warehouse"."public"."my_model__dbt_tmp"
+    
+    
+  as (
+    
+
+
+
 
 with doctorset as (
-    select * from {{ doctorset }}
+    select * from "Data-warehouse"."public"."doctorset_raw"
 ),
 eahci as (
-    select * from {{ eahci }}
+    select * from "Data-warehouse"."public"."eahci_raw"
 ),
 yetenaweg as (
-    select * from {{ yetenaweg }}
+    select * from "Data-warehouse"."public"."yetenaweg_raw"
 ),
 lobelia4cosmetics as (
-    select * from {{ lobelia4cosmetics }}
+    select * from "Data-warehouse"."public"."lobelia4_raw"
 )
 
 select
@@ -74,4 +78,4 @@ select
     lobelia4cosmetics.class_name,
     lobelia4cosmetics.timestamp
 from lobelia4cosmetics
-
+  );

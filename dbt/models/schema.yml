@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: Data-warehouse
+    schema: public
+    tables:
+      - name: doctorset_raw
+        description: "Raw data from DoctorsET JSON file"
+      - name: eahci_raw
+        description: "Raw data from EAHCI JSON file"
+      - name: lobelia4_raw
+        description: "Raw data from lobelia4cosmetics JSON file"
+      - name: yetenaweg_raw
+        description: "Raw data from Yetenaweg JSON file"
