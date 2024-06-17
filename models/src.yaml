@@ -1,34 +1,4 @@
 
-# version: 2
-
-# sources:
-#   - name: Data-warehousing
-#     tables:
-#       - name: raw_data
-#         description: "Raw data from DoctorsET JSON file"
-#         loader: file
-#         path: "{{ source('doctors_et', 'DoctorsET.json') }}"
-#         schema: my_schema
-#         file_format: json
-
-#   - name: eahci
-#     tables:
-#       - name: raw_data
-#         description: "Raw data from EAHCI JSON file"
-#         loader: file
-#         path: "{{ source('eahci', 'EAHCI.json') }}"
-#         schema: my_schema
-#         file_format: json
-
-#   - name: yetenaweg
-#     tables:
-#       - name: raw_data
-#         description: "Raw data from Yetenaweg JSON file"
-#         loader: file
-#         path: "{{ source('yetenaweg', 'yetenaweg.json') }}"
-#         schema: my_schema
-#         file_format: json
-
 version: 2
 
 sources:

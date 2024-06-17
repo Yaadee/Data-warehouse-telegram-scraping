@@ -31,7 +31,7 @@ def load_detection_results(detection_results, image_id, db: Session):
     db.commit()
 
 def get_class_name(class_id):
-    # Example mapping of class_id to class_name, replace with actual mapping
+    # Example mapping of class_id to class_name
     class_mapping = {
         32: "example_class",  # Adjusted to match integer type if your class_id is integer in database
         # Add other mappings as needed

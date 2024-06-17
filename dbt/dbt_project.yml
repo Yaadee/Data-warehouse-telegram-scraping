@@ -1,9 +1,9 @@
 
-name: dbt_project
+name: test
 version: 2.0.0
 config-version: 2
 
-profile: dbt
+profile: test
 
 # Specify where DBT should look for models
 model-paths: ["models"]

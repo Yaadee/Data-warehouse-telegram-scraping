@@ -1,41 +1,46 @@
 import pandas as pd
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, types
 import json
-DB_CONNECTION_STRING = 'postgresql://postgres:admin@localhost/Data-warehouse'
+import os
 
-# Function to load JSON data into a DataFrame
-def load_data(json_file):
-    with open(json_file, 'r', encoding='utf-8') as file:
-        data = json.load(file)
-        df = pd.json_normalize(data)  # Flatten nested JSON into DataFrame
-    return df
+# Database connection
+engine = create_engine('postgresql://postgres:admin@localhost:5432/Data-warehouse')
 
-# Load JSON files into Pandas DataFrames
-doctors_df = load_data('dbt/data/cleaned/DoctorsET_cleaned.json')
-eahci_df = load_data('dbt/data/cleaned/EAHCI_cleaned.json')
-lobelia4_df = load_data('dbt/data/cleaned/lobelia4cosmetics_cleaned.json')
-yetenaweg_df = load_data('dbt/data/cleaned/yetenaweg_cleaned.json')
+# Print the current working directory
+print("Current working directory:", os.getcwd())
 
-# Database engine
-engine = create_engine(DB_CONNECTION_STRING)
+# Paths to JSON files
+json_files = {
+    'doctorset_raw': 'dbt1/models/raw/DoctorsET.json',
+    'eahci_raw': 'dbt1/models/raw/EAHCI.json',
+    'yetenaweg_raw': 'dbt1/models/raw/yetenaweg.json',
+    'lobelia4cosmetics_raw': 'dbt1/models/raw/lobelia4cosmetics.json'
+}
 
-# Function to handle serialization of problematic columns
-def serialize_data(df):
-    # Example: serialize 'message' column as JSON string
-    if 'message' in df.columns:
-        df['message'] = df['message'].apply(json.dumps)
-    return df
+# Function to read JSON file and infer schema
+def infer_json_schema(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        json_data = json.load(f)
+        if isinstance(json_data, list):  # Check if the JSON data is a list (array of objects)
+            # Assuming each object in the array has the same structure, use the first object for schema inference
+            sample_data = json_data[0]
+        else:
+            sample_data = json_data
 
-# Serialize problematic columns (if needed)
-doctors_df = serialize_data(doctors_df)
+        column_types = {
+            col: types.VARCHAR(length=max(len(str(item)) for item in sample_data[col]))  # Infer VARCHAR length based on max length in sample
+            for col in sample_data.keys()
+        }
+        return column_types
 
-# Load DataFrames into PostgreSQL database
-try:
-    doctors_df.to_sql('doctorset_raw', engine, if_exists='replace', index=False)
-    eahci_df.to_sql('eahci_raw', engine, if_exists='replace', index=False)
-    lobelia4_df.to_sql('lobelia4_raw', engine, if_exists='replace', index=False)
-    yetenaweg_df.to_sql('yetenaweg_raw', engine, if_exists='replace', index=False)
-    print("Data loaded successfully")
-except Exception as e:
-    print(f"Error loading data to database: {e}")
+# Load JSON files into DataFrames and write to PostgreSQL
+for table_name, file_path in json_files.items():
+    # Check if the file exists
+    if not os.path.isfile(file_path):
+        print(f"File not found: {file_path}")
+        continue
+    schema = infer_json_schema(file_path)
+    df = pd.read_json(file_path, dtype=str, lines=True)
+    df.to_sql(table_name, engine, if_exists='replace', index=False, dtype=schema)
 
+print("Data loaded successfully into PostgreSQL.")
